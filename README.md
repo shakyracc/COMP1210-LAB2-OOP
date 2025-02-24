@@ -9,18 +9,18 @@ Write a function header with return type, name, and parameter list, for
 each such operation described below. Don’t write the whole function, just
 the header. They will all be public methods. The first one is done for you
 as an example.
-- (a) Withdraw a given amount from the account. This changes the account balance, but does not return a value.
+[X] - (a) Withdraw a given amount from the account. This changes the account balance, but does not return a value.
 
     `def withdraw ( self , amount ):`
-- (b) Deposit a given amount into the account. This changes the account
+[X]- (b) Deposit a given amount into the account. This changes the account
 balance, but does not return a value.
-- (c) Get the balance from the account. This does not change anything in
+[X]- (c) Get the balance from the account. This does not change anything in
 the account; it simply returns the balance.
-- (d) Return a string containing the account information (name, account
+[X]- (d) Return a string containing the account information (name, account
 number, balance). This does not change anything in the account.
-- (e) Charge a $10 fee. This changes the account balance but does not
+[X] - (e) Charge a $10 fee. This changes the account balance but does not
 return a value.
-- (f) Create a new account given an initial balance, the name of the owner,
+[X] - (f) Create a new account given an initial balance, the name of the owner,
 and the account number. Note that this will be a constructor, and
 that a constructor does not have a return type.
 ### Exercises
@@ -32,11 +32,11 @@ the sample run. You can enter choice 1 for viewing the current balance, 2 for
 withdrawing money, 3 for depositing money, and 4 for exiting the main menu.
 Once you exit, the system will prompt for an id again. Thus, once the system
 starts, it will not stop.
-1. Implement **chargeFee** function, which should deduct a service fee from
+[X] 1. Implement **chargeFee** function, which should deduct a service fee from
 the account and return a new balance.
-2. Implement **changeName** which takes a string as a parameter and changes
+[X] 2. Implement **changeName** which takes a string as a parameter and changes
 the name on the account to be that string.
-3. Allow the account number to be randomly generated.
+[X] 3. Allow the account number to be randomly generated.
 4. Suppose the bank wants to keep track of how many accounts exist. Implement this feature using a variable and function.
 5. Add a **close** method to your **Account** class. This method should close
 the current account by appending “CLOSED” to the account name and
