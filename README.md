@@ -9,18 +9,16 @@ Write a function header with return type, name, and parameter list, for
 each such operation described below. Don’t write the whole function, just
 the header. They will all be public methods. The first one is done for you
 as an example.
-- [x] (a) Withdraw a given amount from the account. This changes the account balance, but does not return a value.
-
-    `def withdraw ( self , amount ):`
-- [x] (b) Deposit a given amount into the account. This changes the account
+- [x] Withdraw a given amount from the account. This changes the account balance, but does not return a value.
+- [x] Deposit a given amount into the account. This changes the account
 balance, but does not return a value.
-- [x] (c) Get the balance from the account. This does not change anything in
+- [x] Get the balance from the account. This does not change anything in
 the account; it simply returns the balance.
-- [x] (d) Return a string containing the account information (name, account
+- [x] Return a string containing the account information (name, account
 number, balance). This does not change anything in the account.
-- [x] (e) Charge a $10 fee. This changes the account balance but does not
+- [x] Charge a $10 fee. This changes the account balance but does not
 return a value.
-- [x] (f) Create a new account given an initial balance, the name of the owner,
+- [x] Create a new account given an initial balance, the name of the owner,
 and the account number. Note that this will be a constructor, and
 that a constructor does not have a return type.
 ### Exercises
